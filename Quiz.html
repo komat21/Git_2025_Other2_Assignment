@@ -5,6 +5,17 @@
 	    <title>Quiz</title>
 	</head>
 	<body>
+		<h3>リスクを軽減するために、複数の反復的な開発サイクルを通じて段階的にシステムを完成させていく開発モデルはどれか。</h3>
+		 
+	<form id="quizForm">
+        <input type="radio" name="answer" value="ウォーターフォール"> ウォーターフォール<br>
+        <input type="radio" name="answer" value="スパイラル"> スパイラル<br>
+        <input type="radio" name="answer" value="プロトタイピング"> プロトタイピング<br>
+		<input type="radio" name="answer" value="V字モデル"> V字モデル<br><br>
+        <button type="button" onclick="checkAnswer()">解答する</button>
+    </form>
+		 <p id="result"></p>
+		 
 		<script src="Quiz.js"></script>
 	</body>
 </html>
